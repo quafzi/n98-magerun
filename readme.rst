@@ -1227,6 +1227,14 @@ In my Ubuntu system this can be done with the following command:
 
    $ sudo cp autocompletion/bash/bash_complete /etc/bash_completion.d/n98-magerun.phar
 
+zsh
+"""
+
+Add the file **zsh/magento.plugin.zsh** as a zsh plugins.
+Using oh-my-zsh_ this can be established by moving it to **.oh-my-zsh/plugins/magento/magento.plugin.zsh**
+(if it's not already there) and enable it in your **.zshrc**.
+
+.. _oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
 
 PHPStorm
 """"""""
